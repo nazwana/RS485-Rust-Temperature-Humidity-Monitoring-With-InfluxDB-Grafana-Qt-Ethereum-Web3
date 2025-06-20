@@ -8,9 +8,9 @@ Sistem ini dirancang untuk memantau **suhu dan kelembaban lingkungan** di sektor
 
 ## 🎓 Proyek Kelompok 5
 
-**Mata Kuliah:** Interkoneksi Sistem Instrumentasi
-**Departemen:** Teknik Instrumentasi
-**Fakultas:** Vokasi
+**Mata Kuliah:** Interkoneksi Sistem Instrumentasi  
+**Departemen:** Teknik Instrumentasi  
+**Fakultas:** Vokasi  
 **Universitas:** Institut Teknologi Sepuluh Nopember (ITS)
 
 ### 👥 Anggota:
