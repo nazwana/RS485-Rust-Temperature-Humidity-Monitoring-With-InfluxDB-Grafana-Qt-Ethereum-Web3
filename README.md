@@ -81,8 +81,6 @@ Sistem ini dirancang untuk memantau suhu dan kelembapan secara real-time menggun
 .
 ├── sensor-gateway/         # Program Rust (Modbus RTU → TCP + Smart Contract)
 ├── sensor-dashboard-qt/    # Dashboard PySide6 Qt GUI
-├── influxdb/               # Konfigurasi database time-series
-├── grafana/                # Dashboard visualisasi InfluxDB
 ├── hardhat-sensor-contract # Smart Contract Solidity + deployment Hardhat
 ├── frontend-dapp/          # Web3 DApp React + ethers.js + MetaMask
 └── README.md               # Dokumentasi proyek ini
