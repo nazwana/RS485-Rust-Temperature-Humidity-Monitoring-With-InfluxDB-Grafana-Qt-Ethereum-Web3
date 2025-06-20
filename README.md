@@ -127,9 +127,23 @@ function recordData(string memory deviceId, int256 temp, int256 hum) public
 
 ## 📈 Visualisasi
 
-* **Qt GUI**: LineChart + BarChart untuk pengguna lokal
-* **Grafana**: Web dashboard dari InfluxDB
-* **React DApp**: Grafik real-time dari event blockchain
+Berikut adalah tampilan visualisasi dari berbagai sisi sistem:
+
+### 🖥️ Qt GUI (Desktop Realtime Monitoring)
+Menampilkan data suhu & kelembapan dengan grafik line dan batang.
+![Qt Dashboard](documentation/qt-dashboard.png)
+
+### 📊 Grafana (Web Dashboard via InfluxDB)
+Menampilkan data historis dengan time-series chart.
+![Grafana Dashboard](documentation/grafana-dashboard.png)
+
+### 📂 InfluxDB Bucket View
+Menampilkan struktur bucket dan preview data terbaru.
+![InfluxDB Bucket](documentation/influxdb-bucket.png)
+
+### 🌐 Web3 DApp (Frontend React + MetaMask)
+Menampilkan data yang dicatat ke Blockchain Ethereum secara real-time.
+![Web3 DApp](documentation/web3-dapp.png)
 
 ---
 
