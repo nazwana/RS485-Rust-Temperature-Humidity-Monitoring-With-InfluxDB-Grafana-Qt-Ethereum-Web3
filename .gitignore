@@ -1,0 +1,16 @@
+# Abaikan virtual environment
+venv/
+sensor-dashboard-qt/venv/
+
+# Abaikan node_modules dari semua folder
+**/node_modules/
+
+# Cache & build
+*.pyc
+__pycache__/
+dist/
+build/
+.DS_Store
+
+# Private credentials
+.env
