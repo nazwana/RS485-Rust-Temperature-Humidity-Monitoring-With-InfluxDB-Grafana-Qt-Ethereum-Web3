@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>back-square-svgrepo-com.svg</file>
+    <file>close-square-svgrepo-com.svg</file>
+    <file>home-alt-4-svgrepo-com.svg</file>
+    <file>interface-ui-ux-web-svgrepo-com.svg</file>
+    <file>maximize-square-minimalistic-svgrepo-com.svg</file>
+    <file>minimize-square-minimalistic-svgrepo-com.svg</file>
+  </qresource>
+</RCC>
