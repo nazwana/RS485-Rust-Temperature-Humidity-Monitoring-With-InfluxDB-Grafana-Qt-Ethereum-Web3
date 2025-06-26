@@ -1,0 +1,30 @@
+[Unit]
+Description=Sensor Gateway Full Stack Application
+After=network.target
+
+[Service]
+# User dan Group disesuaikan dengan 'ahmadradhy'
+User=ahmadradhy
+Group=ahmadradhy
+
+# Direktori kerja utama tempat skrip berada
+WorkingDirectory=/home/ahmadradhy/Documents/DATA/RUST
+
+# Perintah untuk memulai layanan
+ExecStart=/home/ahmadradhy/Documents/DATA/RUST/start_all.sh
+
+# Perintah untuk menghentikan layanan
+ExecStop=/home/ahmadradhy/Documents/DATA/RUST/stop_all.sh
+
+# Atur agar layanan restart otomatis jika gagal
+Restart=on-failure
+RestartSec=10
+
+# PENTING: Path ini disesuaikan dengan output `which node` dan `which cargo` Anda
+# Path untuk cargo: /home/ahmadradhy/.cargo/bin
+# Path untuk node: /usr/bin
+# Ditambah path standar lainnya
+Environment="PATH=/home/ahmadradhy/.cargo/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:/bin"
+
+[Install]
+WantedBy=default.target
